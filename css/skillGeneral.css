@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(242, 171, 39);
+}
+
+header{
+    width: 100%;
+    min-height: 7rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    margin-bottom: 2rem;
+    margin-left:  2rem;
+    margin-right:  2rem;
+    padding: 2rem;
+    background-color: rgb(231, 187, 106);
+    padding-left: 8rem;   
+    
+}
+
+.container-tarjet{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.tarjeta{
+    background-color: white;
+    width: 10rem;   
+    border: solid 3px rgb(174, 140, 78);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2{
+    text-align: center;
+}
+
+h2{
+    color: blanchedalmond;
+}
+
+
+h3{
+    padding: 0;
+    margin: 0;   
+    
+}
+
+.img_mesa{
+    width: 8rem;
+}
+
+.img_mesa:hover{
+    cursor: pointer;
+}
+
+#modalPerfil{
+    width: 24em;
+    height: 27rem;
+    gap: 1.5rem;
+    background-image: url(./../img/fondoRegistro.jpg);
+}
+
+#modalPerfil::backdrop{
+    background-color: rgba(149, 144, 144, 0.8);
+}
+
+#formPerfil{
+    max-width:  20rem;
+    padding-left: 4rem;
+    height: 18rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.divForm{
+    display: flex;
+}
+.divModal{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 1.5rem;
+    width: 15rem;
+}
+
+label{
+    font-weight:bold;
+    color: rgb(223, 27, 27);
+    font-size: 1.5rem;
+    
+    width: 8rem;    
+}
+
+/* Estilos para tabletas */
+@media screen and (max-width: 768px) {
+    .tarjeta {
+        width: 48%;
+    }
+}
+
+/* Estilos para teléfonos móviles */
+@media screen and (max-width: 480px) {
+    .tarjeta {
+        width: 100%;
+    }
+}

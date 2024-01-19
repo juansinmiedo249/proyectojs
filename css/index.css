@@ -1,0 +1,137 @@
+*{
+    
+    
+    width: 100%;
+    
+    
+}
+
+body{
+    background-image: url(./../img/fondoRegistro.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-color: rgba(0, 0, 0, 0.66);
+    z-index: -1 ;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    /* background: radial-gradient(rgba(255, 0, 0, 0.657), rgba(17, 17, 219, 0.624)); */
+    
+    justify-content: center ;
+    margin: 0;
+}
+
+.formInicio{
+    max-width:  28rem;
+    height: 10rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding-left: 4rem;
+    padding-right: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.88)
+    
+
+}
+
+label{
+    font-weight:bold;
+    color: rgb(223, 27, 27);
+    font-size: 1.5rem;
+    
+    width: 8rem;    
+}
+
+.divForm{
+    display: flex;
+}
+.divModal{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.botones{
+    
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#btEntrar{
+    background-color: rgb(3, 79, 16);
+    color: aliceblue;
+    
+}
+
+
+#formModal{
+    max-width:  20rem;
+    padding-left: 4rem;
+    height: 18rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#btRegistrar{
+    background-color: blue;
+    color: aliceblue;
+    
+}
+
+input{
+    height: 1.5rem;
+    width: 15rem;
+}
+
+h2{
+    text-align: center;
+}
+
+h2{
+    color: blanchedalmond;
+}
+
+#modal{
+    width: 24em;
+    height: 27rem;
+    gap: 1.5rem;
+    background-image: url(./../img/fondoRegistro.jpg);
+}
+
+#modal::backdrop{
+    background-color: rgba(149, 144, 144, 0.8);
+}
+
+.btmodal{
+    margin-top: 1rem;
+}
+
+#btRegistrado{
+    background-color: green;
+    font-weight:bold;
+}
+
+#btCancelar{
+    background-color: red;
+    font-weight:bold;
+}
