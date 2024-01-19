@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div class="container">
+       
+        <form action="" class="formInicio">
+            
+            <div class="divForm">
+                <label for="">Usuario</label>
+                <input type="text" placeholder="Ingrese su usuario" id="usuario">
+            </div>
+            <div class="divForm">
+                <label for="">Contraseña</label>
+                <input type="text" placeholder="Ingrese su contraseña" id="contraseña">
+            </div>
+        </form>
+        <div class="botones">
+            <button type="button" id="btEntrar" >Entrar</button>
+            <button id="btRegistrar">Registrar</button>
+        </div>
+        
+    </div>
+
+    <dialog  id="modal">
+        <h2>Registro</h2>
+        <form method="dialog" id="formModal">
+            <div class="divModal">
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Ingrese su Nombre" id="name" required>
+            </div>
+            <div class="divModal">
+                <label for="">Contraseña</label>
+                <input type="text" placeholder="Ingrese su contraseña" id="pasword" required>
+            </div>
+            <div class="modal">
+                <label for="">Cedula</label>
+                <input type="text" placeholder="Ingresesu numero de cedula" id="ced">
+            </div>
+            <div class="divModal">
+                <label for="">Cargo</label>
+                <input type="text" placeholder="Ingrese su cargo" id="cargo" required>
+            </div class="divModal">
+        </form>
+        <div class="botones btmodal" >
+            <button type="button" id="btRegistrado" >Registrar</button>
+            <button id="btCancelar">Cancelar</button>
+        </div>
+    </dialog>
+
+    
+
+    <script src="./controller/index.js" type="module"></script>
+</body>
+</html>
