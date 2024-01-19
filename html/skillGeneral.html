@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesas</title>
+    <link rel="stylesheet" href="./../css/skillGeneral.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./../img/user.png" alt="">
+            
+        </div>
+        <div class="perfil">
+            <label for="" id="userActivo">Nombre</label>
+            <button id="perfil">Perfil</button>
+        </div>
+    </header>
+    <main>
+        <div class="container-tarjet">
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 1</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 2</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 3</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 4</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 5</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 6</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 7</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 8 </h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 9</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 10</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 11</h3>
+            </div>
+            <div class="tarjeta">
+                <img class="img_mesa" src="./../img/mesa.png" alt="">
+                <h3>Mesa 12</h3>
+            </div>
+        </div>
+        
+    </main>
+
+    <dialog  id="modalPerfil">
+        <h2>Perfil</h2>
+        <form method="dialog" id="formPerfil">
+            <div class="divModal">
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Ingrese su Nombre" id="namePerfil" required>
+            </div>
+            <div class="divModal">
+                <label for="">Contraseña</label>
+                <input type="text" placeholder="Ingrese su contraseña" id="paswordPerfil" required>
+            </div>
+           
+            <div class="divModal">
+                <label for="">Cargo</label>
+                <input type="text" placeholder="Ingrese su cargo" id="cargoPerfil" required>
+            </div >
+        </form>
+        <div class="botones btmodal" >
+            <button type="button" id="btActualizar" >Actualizar</button>
+            <button id="btEliminar">Eliminar</button>
+            <button id="btCancelar">Cancelar</button>
+        </div>
+    </dialog>
+
+    <script src="./../controller/skillGeneral.js"  type="module"></script>
+</body>
+</html>
