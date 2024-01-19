@@ -1,0 +1,79 @@
+{
+  "pizzas": {
+    "Hawaiana": {
+      "tamaño": {
+        "Porcion": 7000,
+        "Mediana": 25000,
+        "Jumbo": 54000
+      },
+      "Pollo": {
+        "tamaño": {
+          "Porcion": 7500,
+          "Mediana": 25000,
+          "Jumbo": 54000
+        }
+      },
+      "Tres Carnes": {
+        "tamaño": {
+          "Porcion": 7500,
+          "Mediana": 25000,
+          "Jumbo": 54000
+        }
+      },
+      "Mexicana": {
+        "tamaño": {
+          "Porcion": 9900,
+          "Mediana": 31000,
+          "Jumbo": 72000
+        }
+      },
+      "Popolo": {
+        "tamaño": {
+          "Porcion": 9500,
+          "Mediana": 30000,
+          "Jumbo": 68000
+        }
+      },
+      "Teriyaki": {
+        "tamaño": {
+          "Porcion": 9000,
+          "Mediana": 30000,
+          "Jumbo": 65000
+        }
+      }
+    }
+  },
+  "Hamburguesas": {
+    "Sencilla": 15000,
+    "D'la casa": 18500,
+    "Estofada": 16500
+  },
+  "Hot Dogs": {
+    "Tradicional": 13000,
+    "Potensa": 16500,
+    "Gallipoli": 16500
+  },
+  "lasagna": {
+    "D'la casa": 18000,
+    "Paiolo": 18000,
+    "Baffetto": 15000
+  },
+  "Bebidas": {
+    "pet": 3400,
+    "litroymedio": 7000,
+    "econolitro": 5000,
+    "familiar": 10000,
+    "te": 3500,
+    "agua": 2500,
+    "granizados": 5000
+  },
+  "empleados": [
+    {
+      "id": "1098686083",
+      "nombre": "Carlos",
+      "pasword": "000000",
+      "cargo": "Cajero"
+    }
+  ],
+  "pedidos": []
+}
